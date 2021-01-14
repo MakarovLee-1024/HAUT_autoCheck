@@ -6,8 +6,8 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 03 6 * * *
-    - cron: 03 3 * * * 
+    - cron: 03 16 * * *
+    - cron: 03 18 * * * 
 
 jobs:
   bot:
